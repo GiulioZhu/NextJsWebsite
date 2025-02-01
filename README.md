@@ -1,12 +1,7 @@
-## Next.js App Router Course - Starter
+# Useful tips
+ESLint  helps catching accessibility issues in the project
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+configure in /package.json > scripts ("lint": "next lint")
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-
-## Run Server
-Write: 
-``` 
-    pnpm i 
-    pnpm dev
-```
+and run 
+```pnpm lint```
